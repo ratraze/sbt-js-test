@@ -2,7 +2,7 @@ sbtPlugin := true
 
 name := "sbt-js-test"
 
-organization := "com.joescii"
+organization := "com.acidic"
 
 homepage := Some(url("https://github.com/joescii/sbt-js-test"))
 
@@ -84,5 +84,5 @@ buildInfoKeys := Seq[BuildInfoKey](
   jasmineVersion
 )
 
-buildInfoPackage := "com.joescii.sbtjs.build"
+buildInfoPackage := "com.acidic.sbtjs.build"
 
