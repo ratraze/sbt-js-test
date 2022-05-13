@@ -9,7 +9,7 @@ homepage := Some(url("https://github.com/joescii/sbt-js-test"))
 version := "0.3.0"
 
 val htmlunitVersion = settingKey[String]("Version of htmlunit")
-htmlunitVersion := "2.19"
+htmlunitVersion := "2.61.0"
 
 val webjarLocatorVersion = settingKey[String]("Version of webjar locator")
 webjarLocatorVersion := "0.30"
